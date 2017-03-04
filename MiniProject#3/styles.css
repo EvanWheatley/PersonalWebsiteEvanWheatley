@@ -1,0 +1,98 @@
+header {/*sets style for header */
+  background-color: #82bef5;/* sets background colour in header*/
+  color: white;/* sets text colour to white*/
+}
+.center{
+  text-align: center;/* aligns class center's body to center*/
+}
+.profile-picture{/* sets style for profile picture*/
+  width: 150px;/*sets width of profile picture at 150 pixels */
+  height: 150px;/* sets height of profile picture*/
+  padding: 1%;/* sets padding of profile picture*/
+  background-color: #466C88;/*sets background colour of profile picture */
+  border-radius: 50%;/* makes a circle around profile picute with a border*/
+}
+.solar-one{/*sets style for photo */
+  width: 250px;/* sets width of photo*/
+  height: 250px;/*sets height of photo */
+  padding: 1%;/*sets padding of photo */
+}
+.solar-two{/*sets style for photo */
+  width: 250px;/* sets width of photo*/
+  height: 250px;/*sets height of photo */
+  padding: 1%;/*sets padding of photo */
+}
+.solar-three{/*sets style for photo */
+  width: 250px;/* sets width of photo*/
+  height: 250px;/*sets height of photo */
+  padding: 1%;/*sets padding of photo */
+}
+.solar-four{/*sets style for photo */
+  width: 250px;/* sets width of photo*/
+  height: 250px;/*sets height of photo */
+  padding: 1%;/*sets padding of photo */
+}
+.silos{/*sets style for photo */
+  width: 250px;/* sets width of photo*/
+  height: 250px;/*sets height of photo */
+  padding: 1%;/*sets padding of photo */
+}
+.deck{/*sets style for photo */
+  width: 250px;/* sets width of photo*/
+  height: 250px;/*sets height of photo */
+  padding: 1%;/*sets padding of photo */
+}
+h1, h2 {/* sets style for headings*/
+  font-family: 'Bungee', serif;/* sets font for heading*/
+}
+body{/* sets style for body*/
+  font-family: 'Open Sans', sans-serif;/* sets font for body*/
+}
+header h1 {/* sets style for header H1*/
+  margin: 0;/* sets margin at 0*/
+  font-size: 50px;/* sets font size at 50 pixels*/
+}
+header p {/* sets style for header paragraph*/
+  margin:0;/* sets margin at 0*/
+  font-size: 16px;/* sets font size at 16 pixels*/
+}
+aside{/* sets style for aside*/
+  background-color: #466C88;/*sets background colour */
+  width: 20%;/*sets widh at 20 % of page */
+  float: left;/*sets alignment to left */
+}
+aside ul li a {/* sets style for aside unordered list*/
+  font-size: 18px;/* sets font size*/
+  color: #F6CE30;/* sets colour*/
+  cursor: pointer;/*sets cursor to pointer */
+  font-family: 'Bungee',serif;/* sets font type*/
+}
+main {/*sets styles for main */
+  background-color: #F6CE30;/*sets main background colour */
+  width: 72%;/*sets mains width */
+  float: left;/* aligns main to left*/
+}
+main h2{/* */
+  color: #466C88;/* sets main h2 font colour*/
+}
+footer{/*sets styles for footer */
+  background-color: #82bef5;/* sets footer background colour*/
+  color: #fff;/* sets font colour*/
+}
+#social-media img{/* sets style for social media images*/
+  width: 35px;/* sets width to 35 pixels*/
+  padding: 1.5%;/* sets padding to 1.5%*/
+}
+.container{/*sets style for container class */
+  overflow: hidden;/* sets overflow to hidden*/
+  background-color: #466C88;/*sets container class background colour */
+}
+aside ul li a: hover{/* sets a hover style on the aside unordered list*/
+  color: #82bef5;/*sets hover colour */
+}
+
+  }
+  section{/* sets style for sections*/
+    padding-left: 20px;/*sets pading on left at 20 pixels */
+  }
+}

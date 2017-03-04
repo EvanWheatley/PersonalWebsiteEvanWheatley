@@ -1,0 +1,155 @@
+<!DOCTYPE html><!--opens the document and initiates html -->
+<html lang="en"><!-- sets language to english -->
+<head><!--opens the head of the website -->
+  <script>//initates a java script code
+  function validateForm(){// function for form valiadation
+    var x = document.forms["contactInfo"]["fname"].value;//calls the contact info form and the first name set variable to x
+    if (x==""){// launches if statement if x = no value
+      alert("First name must be filled out")// prints an alert if no value for x
+      else alert("Under Construction")//if x has a value prints under Construction
+    }
+    var y = document.forms["contactInfo"]["lname"].value; // sets last name to variable y from contact info form
+    if (y==""){//launches if statement if y = no value
+      alert("Last name must be filled out")// if y returns no value prints alert
+      else alert("Under Construction")// if y returns a value prints under Construction
+    }
+    var z = document.forms["contactInfo"]["email"].value;
+    if (z==""){
+      alert("Email must be filled out")
+      else alert("Under Construction")
+    }
+  }
+  </script><!-- closes the javascript code-->
+  <link rel="stylesheet" href="assets/basic-layout.css"><!--links the index.html file to basic layout css file -->
+  <link rel="stylesheet" href="styles.css"><!--links index.html fie to sytyle sheet css file -->
+  <title>Evan Wheatley's Profile Page</title><!--title that appares on the browser tab -->
+</head><!--closes the head of the html document -->
+<body><!--opens the body of the html document -->
+  <header class="center"><!--opens the header and names a class called center -->
+    <img src="assets/EvanWheatly.JPG" alt="Profile Picture" class="profile-picture"><!--links to profile photo and names a backup text and class -->
+    <h1> Evan Wheatley</h1><!-- Document heading one -->
+    <p> Markham, Ontario</p><!--opens and closes a paragraph element with address -->
+  </header><!--closes header -->
+<div class="container"><!--opens a division with the class called container -->
+  <aside><!--opens and aside that will appear on the left side of the screen -->
+    <ul><!-- starts and unordered list-->
+      <li><!--opens a list item -->
+        <a href="#bio">Bio</a><!--has a link element that takes you to the bio portion of the page and names the unordered list item Bio -->
+      </li><!-- closes list item -->
+      <li>
+        <a href="#skills"> Skills</a>
+        </li>
+      <li>
+        <a href="#portfolio">Portfolio</a>
+      </li>
+      <li>
+        <a href="#superpower">Superpower</a>
+      </li>
+      <li>
+        <a href="#form">Contact Form</a>
+      </li>
+      <li>
+        <a href="#social-media">Social Media</a>
+      </li>
+    </ul><!-- closes unordered list-->
+  </aside><!-- closes aside-->
+<main><!--opens the main portion of the html file -->
+  <section id="bio"><!--starts a section with the id bio -->
+    <h2>Bio</h2><!-- Heading two with the test bio -->
+    <p><!--opens first bio paragraph -->
+      I was born in markham and lived there for the first twelve years of my life.
+      Most of my childhood years were spent on the ice, figure skating.  My mother
+      didn’t want me to play hockey as she thought it was too violent so the only
+      real option for me to skate was figure skating.  After a few years of training
+      I developed into quite a good skater and upon moving to Huntsville in 1998
+      I began competing in the competitive stream.  I had success and twice placed
+      first in the NOSIC competition for juvenile and pre novice skating.  With
+      these results I was invited to compete in the Tomorrows champions and
+      Western Challenge where I placed 13th and and 25th respectively.  Though
+      I enjoyed skating I wasn't quite good enough to be a national champion and
+      with the expenses of the sport adding up I quit.  At the peak I was
+      spending 30 hours per week on the ice and skating at three different
+      clubs and once it was gone it took a while for me to fill the void.
+    </p><!--closes first bio paragraph -->
+    <p><!--opens second bio paragraph -->
+      After high school I decided to go to college.  This was a good decision
+      however I and my family could not afford to send me so I decided to work
+      and save up enough to go.  Even before the end of high school I was hired
+      at a local factory that made waste management equipment I was solely
+      responsible for cleaning the welds of 50 welders to prep the equipment for
+      painting.  After 6 months I applied at another factory that was closer to
+      home and got hired when i was just 18 (the minimum age to work there).
+      This factory made plastic high pressure fittings and pipe.  I worked
+      and excelled there for a year and a half before going on a 6 week trip
+      to Europe and beginning college.
+</p><!--closes second bio paragraph -->
+<p><!-- opens third bio paragraph -->
+      College was a very good experience and I met many very interesting people.
+      I did well and after two years got my technician diploma.  After college
+      finding a job in my field proved difficult and I moved back to markham
+      to work in another factory making feed screws.  I spent almost two years
+      there and mastered the processes that I was responsible for
+      (cylindrical OD grinding) and figured i would take another shot at
+      working in my field of study.  I found a job installing solar panels
+      on roofs and very much enjoyed it for three years until getting laid
+      off because of downturns in the industry (the clawing back of government
+      subsidies).
+  </p><!-- closes thris bio paragraph-->
+  <p><!--opens fourth bio pararaph -->
+      After getting laid off I decided I would return to school and took a number
+      of employment classes to try to pinpoint what industry I should aim to work
+      in.  In these workshops I scored highest in applied science and the IT
+      industry.  I then heard through one of my employment counsellors about
+      the NPower Canada program and it seemed like a natural fit.  I applied
+      and was thankfully accepted and am now well on the way to achieving their
+      certification.  I am excited that I have a bright future in the IT
+      industry and am anxiously awaiting my chance to prove myself in the
+      working world again.    </p>
+  </section><!-- closes bio section -->
+  <section id="skills"><!--opens skills section -->
+    <h2>Skills</h2><!--skills heading -->
+    <ul><!--unordered list start -->
+      <li> Elementry knowledge of C# and java</li><!--list item on unordered list -->
+      <li> Elementry knowledge of HTML and CSS</li>
+      <li> Understanding of MS Office suite</li>
+      <li> Experience working in an agile environment</li>
+      <li> Experience with Gantt charts</li>
+      <li> Experience with SCRUM and as SCRUM master</li>
+  </section> <!-- closes list section-->
+  <section id="portfolio"><!--opens section with the id portfolio -->
+    <h2> Portfolio</h2>
+    <h2> Construction Projects</h2>
+    <img src="assets/solar1.JPG" alt="Solar Array One" class="solar-one"><!--link to photo -->
+    <img src="assets/solar2.JPG" alt="Solar Array Two" class="solar-two"><!--link to photo -->
+    <img src="assets/solar3.JPG" alt="Solar Array Three" class="solar-three"><!--link to photo -->
+    <img src="assets/RedBarnSolar.JPG" alt="Solar Array Four" class="solar-four"><!--link to photo -->
+    <img src="assets/trentonsilos.JPG" alt="Grain Elevator" class="silos"><!--link to photo -->
+    <img src="assets/deck.JPG" alt="Deck Destruction" class="deck"><!--link to photo -->
+
+  </section><!--closes portfolio section -->
+  <section id="superpower">
+    <h2>Superpower</h2>
+    <p>Very fast learner</p>
+  </section>
+  <section id="form"><!--Opens form section -->
+    <h2> Contact Form</h2>
+    <p> Input First Name Last Name and Email Adress
+        <form name="contactInfo"
+        onsubmit="return validateForm()" mehod="post"><!--names the form gives comand to validate using java script code found above -->
+        First Name: <input type="text" name="fname" required><!--first name field of form -->
+        Last Name: <input type="text" name="lname" required><!--last name field of form -->
+        Email: <input type="text" name="email" required><!--email feild of form -->
+        <input type="submit" value="Submit"><!--submit button for form -->
+      </form><!--closes form -->
+  </section><!--closes form section -->
+</main><!-- closes main of html file -->
+</div><!--closes division -->
+<footer class="center" id="social-media"><!--opens footer  class center and id social-media-->
+
+  <a href="http://facebook.com" target="_blank"><!--links to facebook.com -->
+    <img src="assets/social_media/facebook-logo.svg" alt="Facebook Icon"></a><!--facebook logo link with backup text of facebook logo -->
+    <a href="http://linkedin.com/in/evan-wheatley-05" target="_blank"><!-- linkedin link to my linkedin profile-->
+      <img src="assets/social_media/linkedin-logo.svg" alt="linkedin icon"></a><!-- link to linked in logo with back up text of linked logo-->
+</footer><!--closes footer -->
+</body><!-- closes body-->
+</html><!-- closes html file-->

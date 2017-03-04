@@ -1,0 +1,48 @@
+body {/*sets style for body */
+    margin: 0;/* sets body margin to zero*/
+    box-sizing: border-box;/*makes a box and border */
+}
+
+strong {/*sets style for strong text */
+  font-weight: bold;/* sets to bold*/
+}
+
+img {/*sets style for images */
+  max-width: 100%;/* sets max width*/
+  height: auto;/* sets height to  automatic*/
+  border: 0;/* sets border to zero*/
+}
+
+header {/*sets style for header */
+  padding: 1.5%;/* sets padding at 1.5 % */
+}
+
+header h1 {/* sets style for header heading style 1 */
+  padding-top: 2.5%;/* sets top padding to 2.5%*/
+}
+
+aside {/*sets style for aside */
+  padding: 2%;/* sets aside padding at 2%*/
+}
+
+main {/*sets style for main */
+  padding: 2%;/* sets main padding at 2%*/
+}
+
+main, aside {/* sets style for main and aside*/
+  padding-top: 1%;/* sets top padding at 1%*/
+}
+
+section {/*sets style for sections */
+  margin: 2% 0/* sets margins at 2%*/;
+}
+
+footer {/* sets style for footer*/
+  clear: both;
+  padding: 1%;/*sets padding at 1% */
+}
+
+aside ul li {/*sets style for aside unordered list and list items */
+  margin: 1.5% 0;/*sets margin at 1.5% */
+  line-height: 1.5;/* sets line height at 1.5*/
+}
